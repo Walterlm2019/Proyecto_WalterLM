@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+		<title>Pagina Educaci&oacute</title>
+</head>
+  <style>
+       textarea {
+            /* Para alinear campos de texto multilínea con sus labels */
+            vertical-align: top;
+
+            /* Para dar suficiente espacio para escribir texto */
+            height: 5em;
+
+            /* Para permitir a los usuarios cambiar el tamaño de cualquier textarea verticalmente
+                No funciona en todos los navegadores */
+            resize: vertical;
+        }
+  </style>
+<body>
+    <header>
+      <h1 id=inicio><img src="../img/logo_new_wlm.svg" alt="Logo" width="200" height="200">  Hoja de Vida</h1>
+
+      <h2>Nombres:Walter Nathaniel</h2>
+      <h2>Apellidos:<strong>Leguia Montoya</strong></h2>
+      <h3>Fecha de Nacimiento:15/07/<em>1982</em> </h3>
+      <h4>Lugar de Nacimiento:<strong>Lima-Per&uacute</strong> </h4>
+    </header>
+
+    <nav>
+       <a href="../Index.html" >Inicio</a>  |
+       <a href="Educacion.html" target="_blank">Educaci&oacuten</a>  |
+	     <a href="Experiencia.html">Experiencia</a>
+    </nav>
+
+    <section>
+       <h2>Educaci&oacuten</h2>
+
+            <table border="1" cellpadding="8" cellspacing="0" width="400px" height="250px" >
+                  <thead>
+                    <tr>
+                      <td><h2>A&ntildeo</h2></td>
+                      <td><h2>Instituci&oacuten</h2></td>
+                      <td><h2>Lugar</h2></td>
+                      <td><h2>¿Culmin&oacute?</h2></td>
+                    </tr>
+                  </thead>
+                  <tbody >
+                    <tr>
+                      <td>1999</td>
+                      <td>Sistemas UNI </td>
+                      <td>Lima -Peru</td>
+                      <td>2002</td>
+
+                    </tr>
+                    <tr>
+                      <td>2004</td>
+                      <td>University "la Sapienza"-LAUREA</td>
+                      <td>Roma - Italy</td>
+                      <td>2010</td>
+
+                    </tr>
+                    <tr>
+                      <td>2014</td>
+                      <td>University "la Sapienza"- MAESTRIA</td>
+                      <td>Roma - Italy</td>
+                      <td>2016</td>
+                    </tr>
+                  </tbody>
+                </table>
+          <h3>Agregar Estudios </h3>
+              <form>
+                  <p>
+                      <label for="ano">A&ntildeo: </label>
+                      <select name="ano">
+                          <option value="1">2015</option>
+                          <option value="1">2016</option>
+                          <option value="1">2017</option>
+                          <option value="1">2018</option>
+                          <option value="1">2019</option>
+                          <option value="1">2020</option>
+                      </select>
+                    </p>
+                    <p>
+                       <label for="institucion">Instituci&oacuten:</label>
+                       <input type="text" name="institucion" autofocus required>
+                   </p>
+                   <p>
+                    <label for="lugar">Lugar:</label>
+                        <textarea class="textarea" name="lugar"  rows="2" cols="20"   placeholder="Lugar de Estudios"></textarea>
+                   </p>
+                   <p>
+                			<label for="accept">Acepto terminos y condiciones: </label>	<br>
+                			<input type="checkbox" name="accept">
+            	  	</p>
+                  <p>
+                      <input type="submit" value="Enviar">
+                  </p>
+               </form>
+    </section>
+    <footer>
+          <p title="Pie de Pagina">
+
+            <strong>Av. las Torres - Rimac </strong> | <a href="mailto:info@ProyectoWlm.com">Contacto</a> <br />
+            <strong>Central Telefonica: 200 - 9060</strong><br>
+            <strong> Lima-PERU </strong><br><strong>Síguenos en:</strong>
+            <a href="http://www.facebook.com/PaginaEmpresa" target="_blank">
+              <img alt="Siguenos en Facebook" src="https://lh6.googleusercontent.com/-CYt37hfDnQ8/T3nNydojf_I/AAAAAAAAAr0/P5OtlZxV4rk/s32/facebook32.png" width=32 height=32  /></a>
+            <a href="https://www.youtube.com" target="_blank"><img alt="Siguenos en YouTube"
+               src="https://lh5.googleusercontent.com/-TXzlKCbKzWs/T6mYkDhTXyI/AAAAAAAAA1U/vm95Q2KwrYg/s32/youtube32.png" width=32 height=32  /></a>
+
+
+          </p>
+    </footer>
+</body>
+</html>
